@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#header-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 20px;
+
+}
+
+#header-page nav ul{
+    display: flex;
+    list-style: none;
+}
+
+#header-page nav ul li{
+    padding: 0 10px;
+}
+.main-section{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.main-section div{
+    width:700px;
+    padding:15px;
+}
+
+.main-section div h1{
+    font-size:55px;
+    font-weight:300;
+    margin:0;
+    padding:5px;
+    line-height: 1.0;
+
+}
+
+.main-section div p{
+    margin:0;
+    padding:5px;
+    margin-bottom:30px;
+}
+
+.main-section div h1 span{
+    color:#035f39;
+    font-weight: bold;
+    font-size:70px;
+}
+a{
+    background:#035f39;
+    padding:10px 15px;
+    border-radius: 12px;
+    color:white;
+    text-decoration: none;
+    font-weight:600;
+    font-size:18px;
+
+}
+
+footer{
+    padding-top:7px;}
+
+footer img{
+    padding:0 7px;
+}
+
+footer div img:first-child:hover{
+    width:50px;
+}
+footer div img:nth-child(2):hover{
+    width:50px;
+}
+footer div img:nth-child(3):hover{
+    width:50px;
+}
+
+@media(max-width:450px){
+    #header-page{
+        padding:0;
+        margin:0;
+    }
+
+    #header-page ul{
+        padding:0;
+    }
+    
+    #header-page img{
+        display: none!important;
+    }
+
+    .main-section div{
+        width:100%;
+        padding:10px;
+    }
+
+    .main-section div h1{
+        font-size:40px;
+    }
+
+    .main-section div h1 span{
+        font-size:48px;
+    }
+}

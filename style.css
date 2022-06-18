@@ -5,6 +5,8 @@ body{
     padding:0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color:white;
+    background: #035f39;
 }
 
 
@@ -51,15 +53,14 @@ body{
 }
 
 .main-section div h1 span{
-    color:#035f39;
     font-weight: bold;
     font-size:70px;
 }
 a{
-    background:#035f39;
+    background:white;
     padding:10px 15px;
     border-radius: 12px;
-    color:white;
+    color:black;
     text-decoration: none;
     font-weight:600;
     font-size:18px;

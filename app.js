@@ -33,24 +33,23 @@ let image_Footer_2 = document.querySelector('footer div img:nth-child(2)');
 let image_Footer_3 = document.querySelector('footer div img:nth-child(3)');
     image_Footer_3.src = './img/thumb3.png';
 
+let body = document.querySelector('body');
+
 function sliderImg(){
         image_Footer_2.addEventListener('click',() =>{
         imageSliderSection.src = './img/img2.png';
-        button.style.background ='#c05e7b';
-        document.querySelector('h1 span').style.color = '#c05e7b';
+        body.style.background = '#b25873';
     })
 
         image_Footer.addEventListener('click',() =>{
         imageSliderSection.src = './img/img1.png';
-        button.style.background ='#035f39';
-        document.querySelector('h1 span').style.color = '#035f39';
+        body.style.background ='#035f39';
 
     })
 
         image_Footer_3.addEventListener('click',() =>{
         imageSliderSection.src = './img/img3.png';
-        button.style.background ='#c94ba5';
-        document.querySelector('h1 span').style.color = '#c94ba5';
+        body.style.background ='#c94ba5';
     })
 
 
